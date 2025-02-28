@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Custom Fake Nails</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // JavaScript to handle button click event
+        document.addEventListener('DOMContentLoaded', () => {
+            const buttons = document.querySelectorAll('.btn');
+
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    button.innerText = 'Added!';
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="shop.html" class="active">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <h1>Shop Our Collection</h1>
+        <div class="product" data-product-name="Elegant Red Nails">
+            <img src="images/red.jpg" srcset="images/red960.jpg, images/red1440.jpg" width="200" height="auto" alt="Elegant Red Nails">
+            <h3>Elegant Red Nails</h3>
+            <pclass="price">$15.99</p>
+            <button class="btn">Shop Now</button>
+        
+        </div>
+        
+        <div class="product" data-product-name="Pastel Blue Nails">
+            <img src="images/blue480.jpeg" srcset="images/blue980.jpeg, images/blue1440.jpeg" alt="Pastel Blue Nails" width="200" height="200">
+            <h3>Pastel Blue Nails</h3>
+            <pclass="price">$14.99</p>
+            <button class="btn">Shop Now</button>
+            
+        </div>
+
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Custom Fake Nails</p>
+    </footer>
+</body>
+</html>

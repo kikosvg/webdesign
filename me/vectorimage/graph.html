@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG logo</title>
+    <link rel="stylesheet" href="graph.css">
+</head>
+<body>
+    <svg viewBox="0 0 200 200">
+        <title>i6 main page</title>
+        <defs>
+            <linearGradient id="gradient1">
+                <stop offset="0%" stop-color="cyan"></stop>
+                <stop offset="50%" stop-color="blue"></stop>
+            </linearGradient>
+            <linearGradient id="gradient2">
+                <stop offset="0%" stop-color="pink"></stop>
+                <stop offset="70%" stop-color="blue"></stop>
+            </linearGradient>
+            <linearGradient id="gradient3">
+                <stop offset="0%" stop-color="magenta"></stop>
+                <stop offset="70%" stop-color="pink"></stop>
+            </linearGradient>
+        </defs>
+
+        <g>
+            
+            <a href="https://i6.cims.nyu.edu/~kx2171/">
+                <rect id="R1" x="2" y="40" width="200" height="20" fill="url(#gradient1)" opacity="0.9"></rect>
+            </a>
+            <a href="index.html">
+                <circle id="C2" cx="50" cy="50" r="100" fill="url(#gradient2)" opacity="0.5"></circle>
+            </a>
+            <a href="who am I.html">
+                <polygon id="P3" points="50,50 200,0 200,120" fill="url(#gradient3)" opacity="0.8"></polygon>
+            </a>
+            <line x1="150" y1="57" x2="2" y2="57" stroke="black" stroke-width="1" ></line>
+            <text id="text" x="60" y="50" alignment-baseline="middle" font-family="Airal" font-size="12">Kiko Xu</text>
+                
+        </g>
+    </svg>
+
+</body>
+</html>

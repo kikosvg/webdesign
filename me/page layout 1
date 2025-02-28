@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - My Physics Journey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Physics Journey</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="page layout 2">About</a>
+      <a href="page layout 3">Contact</a>
+    </nav>
+  </header>
+
+  <main class="wrapper">
+    <section class="content">
+      <h2>Introduction to Quantum Physics</h2>
+      <p>From the very first time I encountered quantum physics in high school, it has been a profound source of motivation and inspiration for me. The subject opened up an entirely new way of looking at the universe, challenging the boundaries of what I thought was possible and igniting a deep curiosity to understand the mysteries of reality on a fundamental level.</p>
+    </section>
+    <section class="images">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Kltzm6GxfyB9IfPSBjYjcUd-dYt-Q-rA73Utw2U4Ow&s" srcset="images/quantum1@2x.jpg 2x" alt="Quantum Mechanics">
+     
+    </section>
+    <section class="bio">
+      <h2>My Story</h2>
+      <p>Unlike classical physics, which adheres to the predictable and orderly principles outlined by Newton's laws, with objects following clear, deterministic paths based on forces and motion</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 My Physics Journey</p>
+  </footer>
+</body>
+</html>

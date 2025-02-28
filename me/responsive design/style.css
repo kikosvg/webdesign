@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "PlaypenSans";
+    src: url("PlaypenSans-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: "PlaypenSans", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .content, .images, .bio {
+    padding: 15px;
+    background-color: rgba(0, 0, 255, .1);
+    border: 1px solid blue;
+    border-radius: 10px;
+  }
+  
+ 
+  @media (min-width: 600px) {
+    .wrapper {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+    }
+    
+    .bio {
+      grid-column: span 2;
+      text-align: justify;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .wrapper {
+      grid-template-columns: 1fr 2fr 1fr;
+      grid-template-areas: 
+        "content images images"
+        "bio bio bio";
+    }
+  
+    .content {
+      grid-area: content;
+    }
+  
+    .images {
+      grid-area: images;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .bio {
+      grid-area: bio;
+    }
+  }
+  
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    
+    header, footer {
+      background-color: #1f1f1f;
+    }
+  
+    .content, .images, .bio {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid #4a90e2;
+    }
+  
+    nav a {
+      color: #9bc3f3;
+    }
+  }

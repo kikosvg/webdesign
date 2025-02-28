@@ -1,0 +1,16 @@
+rect:hover {
+    opacity:0.4;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+circle:hover {
+    fill: black;
+    text-decoration: underline;
+}
+
+g:hover {
+    fill: yellow;
+}

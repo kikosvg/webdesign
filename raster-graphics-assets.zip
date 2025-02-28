@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assets/css/styles.css">
+    <link rel="icon" type="image/ico" href="https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assets/images/favicon.ico?v=1">
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-84ZWQ3K7Y3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-84ZWQ3K7Y3');
+  </script>
+  <body>
+    <h1>Intro to Web Design & Computer Principles – Fall 2024</h1>
+    <nav>
+    <div class="nav-section">
+        <a href="https://emilydidthis.github.io/CSCI-UA.0004-Fall24/"><span>*&nbsp;</span>Syllabus</a>
+        <a href="https://emilydidthis.github.io/CSCI-UA.0004-Fall24/schedule.html"><span>*&nbsp;</span>Schedule + Notes</a>
+        <a href="https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments.html"><span>*&nbsp;</span>Assignments</a>  
+    </div>  
+    <div class="nav-section">
+        <a href="https://edstem.org/us/courses/65705/"><span>*&nbsp;</span>Ed Discussion</a>
+        <a href="https://pollev.com/emilyzhao"><span>*&nbsp;</span>Poll Everywhere</a>
+        <a href="https://brightspace.nyu.edu/d2l/home/403055"><span>*&nbsp;</span>Brightspace</a>
+    </div>      
+</nav>
+    <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
+  </body>
+</html>

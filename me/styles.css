@@ -1,0 +1,97 @@
+.title {
+    font-size: 1.7em;
+}
+
+
+
+a:link, a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(232, 232, 234);
+}
+
+a:active {
+    text-decoration:underline;
+}
+
+
+body{
+    background-image: url("c")
+}
+
+#container {
+    display:flex;
+    font-family:'Times New Roman', serif;
+    font-size: 20px; 
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#chart {
+    display:flex;
+    font-family: 'Times New Roman', serif;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border: 15px solid blue;
+    padding: 50px;
+    margin: 20px;
+    
+}
+
+.link{
+  justify-content: space-around;
+  background-color: rgb(126, 107, 248);
+  padding: 10px;
+}
+
+table {
+    margin-top: 50px;
+    width: 100%;
+}
+
+td {
+    height: 1.3em; font-size:16px
+}
+
+th {
+    height: 3.0em; font-size:20px
+}
+
+.even {
+    background-color: rgb(62, 9, 236);
+}
+
+.odd {
+    background-color: white;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+td {
+    padding: 10px;
+}
+
+
+#footer{
+    text-align: center;
+}
+
+.p1 {
+    justify-content: space-around;
+    background-color: rgb(126, 107, 248);
+    padding: 10px;
+}
+
+
